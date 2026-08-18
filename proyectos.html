@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | Alexia Baco</title>
+    
+    <!-- Importando tipografía Poppins de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Enlace a tu archivo de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Alexia Baco.</a>
+            </div>
+            <ul class="nav-links">
+                <!-- La clase "active" ahora está en "Proyectos" -->
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-mi.html">Sobre mí</a></li>
+                <li><a href="proyectos.html" class="active">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal de Proyectos -->
+    <main class="container">
+        
+        <section class="projects-section">
+            
+            <div class="projects-header">
+                <h1>Mis Proyectos</h1>
+                <p>Una selección del código y los entornos que he construido recientemente.</p>
+            </div>
+
+            <!-- Cuadrícula de Proyectos -->
+            <div class="projects-grid">
+                
+                <!-- Tarjeta 1: TuFit 360 (Destacada) -->
+                <article class="project-card featured">
+                    <div class="project-image">
+                        <!-- Necesitarás guardar una captura del proyecto en la carpeta img -->
+                        <img src="img/tufit-preview.jpg" alt="Captura de la web TuFit 360">
+                    </div>
+                    
+                    <div class="project-info">
+                        <h2>TuFit 360 - Plataforma de Entrenamiento</h2>
+                        <p>
+                            Aplicación web Full-Stack para un servicio de preparación física deportiva. Cuenta con carga dinámica de contenido, integración de base de datos para gestionar sesiones y entrenadores, y un diseño responsive maquetado desde cero.
+                        </p>
+                        
+                        <!-- Píldoras tecnológicas -->
+                        <div class="tech-tags">
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>HTML5/CSS3</span>
+                            <span>JavaScript</span>
+                            <span>API REST</span>
+                        </div>
+                        
+                        <!-- Enlaces -->
+                        <div class="project-links">
+                            <a href="https://alexia-baco.github.io/TuFit/frontend/" target="_blank" class="btn btn-primary">Ver Demo</a>
+                            <a href="https://github.com/alexia-baco/TuFit" target="_blank" class="btn btn-secondary">Código en GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 2: Task Manager - Code Arts -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <!-- Necesitarás guardar una captura o logo de este proyecto en la carpeta img -->
+                        <img src="img/codearts-preview.jpg" alt="Captura del gestor de tareas de Code Arts">
+                    </div>
+                    
+                    <div class="project-info">
+                        <h2>Task Manager - Code Arts</h2>
+                        <p>
+                            Aplicación web Full-Stack desarrollada como parte del onboarding técnico para Code Arts. Se trata de un gestor de tareas que incluye un sistema de autenticación seguro, panel de administración avanzado y un diseño UI/UX completamente responsive. Todo el proyecto está contenerizado para garantizar un despliegue y desarrollo ágil en cualquier entorno.
+                        </p>
+                        
+                        <!-- Píldoras tecnológicas -->
+                        <div class="tech-tags">
+                            <span>Angular</span>
+                            <span>Tailwind CSS</span>
+                            <span>Symfony (PHP)</span>
+                            <span>PostgreSQL</span>
+                            <span>Docker</span>
+                        </div>
+                        
+                        <!-- Enlaces (Solo GitHub para este) -->
+                        <div class="project-links">
+                            <a href="https://github.com/alexia-baco/proyecto-onboarding-angular" target="_blank" class="btn btn-secondary">Código en GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Alexia Baco. Construido con HTML, CSS y JS.</p>
+        </div>
+    </footer>
+
+    <!-- Enlace a tu archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
